@@ -1,0 +1,164 @@
+<html>
+<head><title>lool</title>
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <style>
+        #looli
+        {
+            height: 1000px;
+            background-image: url(gooom.jpg);
+            background-size: cover;
+        }
+        #booo{
+            position: relative;
+            top: 80px;
+            left: 70px;
+        }
+        
+        #content{
+            margin-left: 180px;
+            top: -30px;
+        }
+        #joop{
+            width: 190px;
+            perspective: 800px;
+            position: relative;
+            padding-top:80px ;
+        }
+        #koop{
+            width: 100%;
+            position: absolute;
+            float: right;
+            animation: rotr 15s infinite linear;
+            transform-style: preserve-3d;
+        }
+        #koop:hover{
+            animation-play-state: paused;
+        }
+        #koop figure{
+            
+            width: 260px;
+            height: 180px;
+            border: 1px solid black;
+            overflow: hidden;
+            position: absolute;
+        }
+        #koop figure:nth-child(1){
+            transform: rotateY(0deg) translateZ(150px);
+        }
+        #koop figure:nth-child(2){
+            transform: rotateY(90deg) translateZ(150px);
+        }
+        #koop figure:nth-child(3){
+            transform: rotateY(180deg) translateZ(150px);
+        }
+        #koop figure:nth-child(4){
+            transform: rotateY(270deg) translateZ(150px);
+        }
+        
+      
+        #koop figure img:hover{
+            transform: scale(1.2);
+            transition: all 300ms;
+            cursor: pointer;
+        }
+        .shdom{
+            box-shadow: 0px 30px 30px 0px #000;
+        }
+        img{
+            width:100%;
+            height: 100%;
+        
+        }
+        @keyframes rotr {
+            from{transform: rotateY(0deg);}
+            to{transform: rotateY(360deg);}
+            
+        }
+        h1{
+            color: white;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 80px;
+        }
+        #iuo{
+            color: white;
+            font-family: monospace;
+            font-size: 35px;
+        }
+        #po{
+            position: relative;
+            background: blue;
+        }
+        #pop{
+            position: relative;
+            width: 400px;
+            height: 500px;
+            left: 70px;
+            top: 10px;
+            border-radius: 0 0 20px 20px;
+            box-shadow:  0px 80px 8px 20px white;
+            font-size: xx-large;
+            font-weight: 500;
+        }
+        #bor{
+            padding: 70px;
+            position: relative;
+            background: rgba(255, 255, 255, 0.7);
+            box-shadow:  0 0 10px 10px white;;
+            left: -190px;
+            top: 130px;
+            font-size: 20px;
+        }
+        @media screen and (max-width: 1155px) {
+            #looli{
+                background-image: url(gooomm.jpg);
+                background-position:center bottom ;
+            }
+            #content{
+                margin-left: 160px;
+            }
+            #booo{
+                top: 50px;
+            }
+            #pop{
+                top: 320px;
+                left: 50px;
+            }
+            #bor{
+                left: -150px;
+                top: 970px;
+                padding: unset;
+            }
+            
+        }
+    </style>
+</head>
+<body><div class="row" id="looli"><div class="col-6">
+    <div id="booo"><h1><b>Hai, I'm Rashid</b><br></h1>
+    <p id="iuo"><i>Developer-Programmer-Hacker</i></p></div>
+</div>
+    <div class="col-4" id="content">
+        <div id="joop">
+            <div id="koop">
+                <figure class="shdom"><a href="iop2.jpg" data-lightbox="mygallery"><img src="iop2.jpg"></a></figure>
+                <figure class="shdom"><a href="artificial.jpg" data-lightbox="mygallery"><img src="artificial.jpg"></a></figure>
+                <figure class="shdom"><a href="iop3.jpg" data-lightbox="mygallery"><img src="iop3.jpg"></a></figure>
+                <figure class="shdom"><a href="jjj.jpeg" data-lightbox="mygallery"><img src="jjj.jpeg"></a></figure>
+               
+        </div>
+    </div></div><div class="col-6">
+        <div id="pop"><img src="rock.jpg" id="rock">Rashid<br>
+        <b>BCA graduate</b></div>
+    </div>
+    <div class="col-6"><div id="bor"><b><u>Develops in</u></b><br>
+    <ul>
+    <li>HTML 5</li>
+    <li>javascript</li>
+    <li>bootstrap-4</li>
+    <li>Python</li></ul>
+    Hai i'm a front end developer and also skilled with server side scripting languages like Node js,Python etc. And i am also training with 
+    ethical hacking. You can hire me for web development or for ethical hacking</div></div>
+</div>
+    
+</body>
+</html>
